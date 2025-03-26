@@ -3,6 +3,7 @@ package com.example.demo.controller;
 import com.example.demo.models.Author;
 import com.example.demo.models.Book;
 import org.springframework.graphql.data.method.annotation.Argument;
+import org.springframework.graphql.data.method.annotation.ContextValue;
 import org.springframework.graphql.data.method.annotation.QueryMapping;
 import org.springframework.graphql.data.method.annotation.SchemaMapping;
 import org.springframework.stereotype.Controller;
@@ -11,8 +12,10 @@ import java.util.List;
 
 @Controller
 public class BookController {
+
     @QueryMapping
-    public Book bookById(@Argument String id) {
+    public Book bookById(@Argument String id, @ContextValue String authHeader) {
+        System.out.println("Authorization Header: " + authHeader);
         return Book.getById(id);
     }
 
