@@ -22,9 +22,13 @@ public class RequestHeaderInterceptor implements WebGraphQlInterceptor {
 //        if(authHeader.equals("hey")){
 //            throw new RuntimeException("Failed");
 //        }
+        if(authHeader==null){
+            authHeader="";
+        }
         // Add the header value to the GraphQL context
+        String finalAuthHeader = authHeader;
         request.configureExecutionInput((executionInput, builder) ->
-                builder.graphQLContext(Collections.singletonMap("authHeader", authHeader)).build());
+                builder.graphQLContext(Collections.singletonMap("authHeader", finalAuthHeader)).build());
         return chain.next(request);
     }
 }

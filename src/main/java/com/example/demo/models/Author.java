@@ -1,15 +1,13 @@
 package com.example.demo.models;
 
-import java.util.Arrays;
+import com.example.demo.staticdtata.StaticData;
+import com.example.demo.utils.JsonParser;
+
 import java.util.List;
 
-public record Author (String id, String firstName, String lastName) {
+public record Author(String id, String name, String rating) {
 
-    private static final List<Author> authors = Arrays.asList(
-            new Author("author-1", "Joshua", "Bloch"),
-            new Author("author-2", "Douglas", "Adams"),
-            new Author("author-3", "Bill", "Bryson")
-    );
+    private static final List<Author> authors = JsonParser.parseToList(StaticData.author, Author.class);
 
     public static Author getById(String id) {
         return authors.stream()

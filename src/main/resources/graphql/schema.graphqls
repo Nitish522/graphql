@@ -1,17 +1,40 @@
 type Query {
     bookById(id: ID): Book
     books: [Book]
+    booksByPage(first: Int!,pageSize:Int):Connection
 }
 
 type Book {
     id: ID
-    name: String
-    pageCount: Int
+    bookName: String
     author: Author
 }
 
 type Author {
     id: ID
-    firstName: String
-    lastName: String
+    name: String
+    rating: String
 }
+
+type Connection {
+    pageInfo : PageInfo
+    edges:[Edge]
+
+}
+
+type PageInfo {
+    startCursor:String
+    endCursor:String
+    hasPreviousPage:Boolean
+    hasNextPage:Boolean
+    offSet:Int
+    item:Int
+}
+
+type Edge{
+    cursor:String
+    node:Node
+
+}
+
+union Node = Book | Author
