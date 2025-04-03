@@ -1,4 +1,4 @@
-package com.example.demo.models;
+package com.nitish.quicktasks.models;
 
 import java.util.List;
 

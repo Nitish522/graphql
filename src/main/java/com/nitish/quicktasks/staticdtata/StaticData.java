@@ -1,4 +1,4 @@
-package com.example.demo.staticdtata;
+package com.nitish.quicktasks.staticdtata;
 
 public class StaticData {
 

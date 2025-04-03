@@ -1,7 +1,7 @@
-package com.example.demo.models;
+package com.nitish.quicktasks.models;
 
-import com.example.demo.staticdtata.StaticData;
-import com.example.demo.utils.JsonParser;
+import com.nitish.quicktasks.staticdtata.StaticData;
+import com.nitish.quicktasks.utils.JsonParser;
 
 import java.util.List;
 

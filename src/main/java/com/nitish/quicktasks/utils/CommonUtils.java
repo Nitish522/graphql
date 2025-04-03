@@ -1,4 +1,4 @@
-package com.example.demo.utils;
+package com.nitish.quicktasks.utils;
 
 import java.util.List;
 

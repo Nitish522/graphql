@@ -1,4 +1,4 @@
-package com.example.demo.models;
+package com.nitish.quicktasks.models;
 
 public record Edge<E>(String cursor, E node) {
 }

@@ -1,8 +1,8 @@
-package com.example.demo.controller;
+package com.nitish.quicktasks.controller;
 
-import com.example.demo.models.Author;
-import com.example.demo.models.Book;
-import com.example.demo.models.Connection;
+import com.nitish.quicktasks.models.Author;
+import com.nitish.quicktasks.models.Book;
+import com.nitish.quicktasks.models.Connection;
 import org.springframework.graphql.data.method.annotation.Argument;
 import org.springframework.graphql.data.method.annotation.ContextValue;
 import org.springframework.graphql.data.method.annotation.QueryMapping;

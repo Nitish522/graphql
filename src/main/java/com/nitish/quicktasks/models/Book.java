@@ -1,12 +1,12 @@
-package com.example.demo.models;
+package com.nitish.quicktasks.models;
 
-import com.example.demo.staticdtata.StaticData;
-import com.example.demo.utils.JsonParser;
+import com.nitish.quicktasks.staticdtata.StaticData;
+import com.nitish.quicktasks.utils.JsonParser;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static com.example.demo.utils.CommonUtils.getSubList;
+import static com.nitish.quicktasks.utils.CommonUtils.getSubList;
 
 public record Book(String id, String bookName, String authId) {
 

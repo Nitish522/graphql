@@ -1,4 +1,4 @@
-package com.example.demo.utils;
+package com.nitish.quicktasks.utils;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.json.JsonReadFeature;

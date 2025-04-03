@@ -1,9 +1,9 @@
-package com.example.demo.controller;
+package com.nitish.quicktasks.controller;
 
-import com.example.demo.models.Connection;
-import com.example.demo.models.Edge;
-import com.example.demo.models.Employee;
-import com.example.demo.models.PageInfo;
+import com.nitish.quicktasks.models.Connection;
+import com.nitish.quicktasks.models.Edge;
+import com.nitish.quicktasks.models.Employee;
+import com.nitish.quicktasks.models.PageInfo;
 import org.springframework.graphql.data.method.annotation.Argument;
 import org.springframework.graphql.data.method.annotation.QueryMapping;
 import org.springframework.graphql.data.method.annotation.SchemaMapping;
@@ -12,7 +12,7 @@ import org.springframework.stereotype.Controller;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static com.example.demo.utils.CommonUtils.getSubList;
+import static com.nitish.quicktasks.utils.CommonUtils.getSubList;
 
 @Controller
 public class EmployeeController {

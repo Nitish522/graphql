@@ -1,4 +1,4 @@
-package com.example.demo.token;
+package com.nitish.quicktasks.token;
 
 public class UserDetails {
 

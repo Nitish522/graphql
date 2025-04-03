@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.nitish.quicktasks;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

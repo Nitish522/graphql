@@ -1,4 +1,4 @@
-package com.example.demo.exceptionHandler;
+package com.nitish.quicktasks.exceptionHandler;
 
 import graphql.GraphQLError;
 import graphql.GraphqlErrorBuilder;

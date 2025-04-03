@@ -1,7 +1,7 @@
-package com.example.demo.restController;
+package com.nitish.quicktasks.restController;
 
-import com.example.demo.token.JwtTokenManager;
-import com.example.demo.token.UserDetails;
+import com.nitish.quicktasks.token.JwtTokenManager;
+import com.nitish.quicktasks.token.UserDetails;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

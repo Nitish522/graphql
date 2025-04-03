@@ -1,4 +1,4 @@
-package com.example.demo.components;
+package com.nitish.quicktasks.components;
 
 import org.springframework.graphql.server.WebGraphQlInterceptor;
 import org.springframework.graphql.server.WebGraphQlRequest;

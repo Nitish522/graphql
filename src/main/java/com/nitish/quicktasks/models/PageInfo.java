@@ -1,4 +1,4 @@
-package com.example.demo.models;
+package com.nitish.quicktasks.models;
 
 public class PageInfo {
     private final String startCursor;
