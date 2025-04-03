@@ -6,6 +6,8 @@ import com.example.demo.utils.JsonParser;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import static com.example.demo.utils.CommonUtils.getSubList;
+
 public record Book(String id, String bookName, String authId) {
 
     private static final List<Book> books = JsonParser.parseToList(StaticData.books, Book.class);
@@ -40,16 +42,7 @@ public record Book(String id, String bookName, String authId) {
         return new Connection<>(pageInfo, customerEdges);
     }
 
-    public static <T> List<T> getSubList(List<T> list, int offset, int numberOfElements) {
-        int size = list.size();
 
-        if (offset < 0 || offset >= size || numberOfElements < 0) {
-            throw new IllegalArgumentException("Invalid offset or number of elements");
-        }
-
-        int endIndex = Math.min(offset + numberOfElements, size); // Avoid going beyond the list's bounds
-        return list.subList(offset, endIndex);
-    }
 
 }
 

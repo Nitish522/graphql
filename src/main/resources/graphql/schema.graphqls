@@ -37,4 +37,4 @@ type Edge{
 
 }
 
-union Node = Book | Author
+union Node = Book | Author | Employee

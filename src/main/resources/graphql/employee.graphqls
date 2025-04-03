@@ -1,0 +1,14 @@
+extend type Query {
+    employeeById(id: ID):Employee
+    getAll(first: Int!,pageSize:Int):Connection
+}
+
+type Employee {
+    employeeId: ID
+    fullName: String
+    department: String
+    designation: String
+    hireDate: String
+    annualSalary: Int
+    subordinates: [Employee]
+}

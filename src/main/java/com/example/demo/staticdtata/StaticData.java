@@ -8,5 +8,380 @@ public class StaticData {
     public static String books = """
             [{"id": 1, "bookName": "Beowulf", "authId": 0}, {"id": 2, "bookName": "Batman: Year One", "authId": 1}, {"id": 3, "bookName": "Go Set a Watchman", "authId": 2}, {"id": 4, "bookName": "When You Are Engulfed in Flames", "authId": 3}, {"id": 5, "bookName": "Daughter of Smoke & Bone", "authId": 4}, {"id": 6, "bookName": "Red Queen", "authId": 5}, {"id": 7, "bookName": "The Power of Habit", "authId": 6}, {"id": 8, "bookName": "Midnight in the Garden of Good and Evil", "authId": 7}, {"id": 9, "bookName": "Hopeless", "authId": 8}, {"id": 10, "bookName": "A Little Princess", "authId": 9}, {"id": 11, "bookName": "The Truth About Forever", "authId": 10}, {"id": 12, "bookName": "The horse and his boy", "authId": 11}, {"id": 13, "bookName": "Last Sacrifice ", "authId": 12}, {"id": 14, "bookName": "Little House on the Prairie", "authId": 13}, {"id": 15, "bookName": "The Velveteen Rabbit", "authId": 14}, {"id": 16, "bookName": "Zen and the Art of Motorcycle Maintenance", "authId": 15}, {"id": 17, "bookName": "The War of the Worlds", "authId": 16}, {"id": 18, "bookName": "Pretty Little Liars", "authId": 17}, {"id": 19, "bookName": "Corduroy", "authId": 18}, {"id": 20, "bookName": "The Omnivore's Dilemma", "authId": 19}, {"id": 21, "bookName": "Life After Life", "authId": 20}, {"id": 22, "bookName": "The Rescue", "authId": 21}, {"id": 23, "bookName": "Needful Things", "authId": 22}, {"id": 24, "bookName": "Voyager", "authId": 23}, {"id": 25, "bookName": NaN, "authId": 24}, {"id": 26, "bookName": "Cujo", "authId": 22}, {"id": 27, "bookName": "The Virgin Suicides", "authId": 25}, {"id": 28, "bookName": "Dead to the World", "authId": 26}, {"id": 29, "bookName": "Tess of the d'Urbervilles: A Pure Woman Faithfully Presented", "authId": 27}, {"id": 30, "bookName": "Madame Bovary", "authId": 28}, {"id": 31, "bookName": "The Phantom Tollbooth", "authId": 29}, {"id": 32, "bookName": "The Way of Kings", "authId": 30}, {"id": 33, "bookName": "Club Dead", "authId": 26}, {"id": 34, "bookName": "It's Kind of a Funny Story", "authId": 31}, {"id": 35, "bookName": NaN, "authId": 30}, {"id": 36, "bookName": "After You", "authId": 32}, {"id": 37, "bookName": "The Language of Flowers", "authId": 33}, {"id": 38, "bookName": "Batman: The Dark Knight Returns", "authId": 34}, {"id": 39, "bookName": "The Angel Experiment", "authId": 35}, {"id": 40, "bookName": "High Fidelity", "authId": 36}, {"id": 41, "bookName": "The Guardian", "authId": 21}, {"id": 42, "bookName": "Oryx and Crake", "authId": 37}, {"id": 43, "bookName": "Men Are from Mars, Women Are from Venus Book of Days: 365 Inspirations to Enrich Your Relationships", "authId": 38}, {"id": 44, "bookName": "Kitchen Confidential: Adventures in the Culinary Underbelly", "authId": 39}, {"id": 45, "bookName": "Timeline", "authId": 40}, {"id": 46, "bookName": "Candide", "authId": 41}, {"id": 47, "bookName": "Tuck Everlasting", "authId": 42}, {"id": 48, "bookName": "Christine", "authId": 43}, {"id": 49, "bookName": "Are You My Mother?", "authId": 44}, {"id": 50, "bookName": "The Story of Art", "authId": 45}, {"id": 51, "bookName": "Scarlet", "authId": 46}, {"id": 52, "bookName": "Rich Dad , Poor Dad", "authId": 47}, {"id": 53, "bookName": "Silence ", "authId": 48}, {"id": 54, "bookName": "The Magicians", "authId": 49}, {"id": 55, "bookName": "Taikutsu", "authId": 50}, {"id": 56, "bookName": "A Great and Terrible Beauty", "authId": 51}, {"id": 57, "bookName": "Everything Is Illuminated", "authId": 52}, {"id": 58, "bookName": "The Bourne Supremacy", "authId": 53}, {"id": 59, "bookName": "Easy", "authId": 54}, {"id": 60, "bookName": "David Copperfield", "authId": 55}, {"id": 61, "bookName": "The Absolutely True Diary of a Part-Time Indian", "authId": 56}, {"id": 62, "bookName": "None", "authId": 57}, {"id": 63, "bookName": "A Wizard of Earthsea", "authId": 58}, {"id": 64, "bookName": "Because of Winn-Dixie", "authId": 59}, {"id": 65, "bookName": "A Separate Peace", "authId": 60}, {"id": 66, "bookName": "The Rainmaker", "authId": 61}, {"id": 67, "bookName": "Don Quijote de La Mancha", "authId": 62}, {"id": 68, "bookName": "Assassin's Apprentice", "authId": 63}, {"id": 69, "bookName": "The Restaurant at the End of the Universe", "authId": 64}, {"id": 70, "bookName": "Torment", "authId": 65}, {"id": 71, "bookName": "The Tale of Peter Rabbit", "authId": 66}, {"id": 72, "bookName": "The Silver Chair", "authId": 67}, {"id": 73, "bookName": "The Hero of Ages", "authId": 30}, {"id": 74, "bookName": "Girl, Interrupted", "authId": 68}, {"id": 75, "bookName": "Are You There, Vodka? It's Me, Chelsea", "authId": 69}, {"id": 76, "bookName": "Jonathan Livingston Seagull", "authId": 70}, {"id": 77, "bookName": "City of Heavenly Fire", "authId": 71}, {"id": 78, "bookName": "Love You Forever", "authId": 72}, {"id": 79, "bookName": "Cell", "authId": 22}, {"id": 80, "bookName": "The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics", "authId": 73}, {"id": 81, "bookName": "The Silmarillion", "authId": 74}, {"id": 82, "bookName": "The Drawing of the Three", "authId": 22}, {"id": 83, "bookName": "The Forgotten Garden", "authId": 75}, {"id": 84, "bookName": "Der Proze", "authId": 76}, {"id": 85, "bookName": "This Lullaby", "authId": 10}, {"id": 86, "bookName": "Plain Truth", "authId": 77}, {"id": 87, "bookName": "Orange Is the New Black: My Year in a Women's Prison", "authId": 78}, {"id": 88, "bookName": "The Hound of the Baskervilles", "authId": 79}, {"id": 89, "bookName": "Thinking, Fast and Slow", "authId": 80}, {"id": 90, "bookName": "The Mists of Avalon", "authId": 81}, {"id": 91, "bookName": "Are You There God? It's Me, Margaret", "authId": 82}, {"id": 92, "bookName": "Nights in Rodanthe", "authId": 21}, {"id": 93, "bookName": "Mr. Mercedes", "authId": 22}, {"id": 94, "bookName": "All Together Dead", "authId": 26}, {"id": 95, "bookName": "Midwives", "authId": 83}, {"id": 96, "bookName": "The Polar Express", "authId": 84}, {"id": 97, "bookName": "The True Story of the Three Little Pigs", "authId": 85}, {"id": 98, "bookName": "Patriot Games", "authId": 86}, {"id": 99, "bookName": "Veronika decide morrer", "authId": 87}, {"id": 100, "bookName": "Lean In: Women, Work, and the Will to Lead", "authId": 88}, {"id": 101, "bookName": "Dead as a Doornail ", "authId": 26}, {"id": 102, "bookName": "Shatter Me (Shatter Me, #1)", "authId": 89}, {"id": 103, "bookName": "Starship Troopers", "authId": 90}, {"id": 104, "bookName": "I've Got Your Number", "authId": 91}, {"id": 105, "bookName": "Sofies Verden", "authId": 92}, {"id": 106, "bookName": NaN, "authId": 93}, {"id": 107, "bookName": "The Martian Chronicles", "authId": 94}, {"id": 108, "bookName": "A Visit From the Goon Squad", "authId": 95}, {"id": 109, "bookName": "Heidi", "authId": 96}, {"id": 110, "bookName": "Prey", "authId": 40}, {"id": 111, "bookName": "The Last Battle", "authId": 11}, {"id": 112, "bookName": "World Without End", "authId": 97}, {"id": 113, "bookName": "Chosen: A House of Night Novel", "authId": 98}, {"id": 114, "bookName": "Slammed", "authId": 8}, {"id": 115, "bookName": "Beastly (Beastly, #1, Kendra Chronicles, #1)", "authId": 99}, {"id": 116, "bookName": "Tales of Caunterbury", "authId": 100}, {"id": 117, "bookName": "Baby Proof", "authId": 101}, {"id": 118, "bookName": "Inheritance", "authId": 102}, {"id": 119, "bookName": "Ichi-Ky-Hachi-Yon]", "authId": 103}, {"id": 120, "bookName": "Uncle Tom's Cabin or Life Among the Lowly", "authId": 104}, {"id": 121, "bookName": "Le Fant de l'Opra", "authId": 105}, {"id": 122, "bookName": "Definitely Dead (Sookie Stackhouse, #6)", "authId": 26}, {"id": 123, "bookName": "Ensaio Sobre a Cegueira", "authId": 106}, {"id": 124, "bookName": "Freedom", "authId": 107}, {"id": 125, "bookName": "Crossed", "authId": 108}, {"id": 126, "bookName": "I'd Tell You I Love You, But Then I'd Have to Kill You", "authId": 109}, {"id": 127, "bookName": "The White Tiger", "authId": 110}, {"id": 128, "bookName": "The Corrections", "authId": 107}, {"id": 129, "bookName": "Dreams from My Father", "authId": 111}, {"id": 130, "bookName": "Congo", "authId": 40}, {"id": 131, "bookName": "Alexander and the Terrible, Horrible, No Good, Very Bad Day", "authId": 112}, {"id": 132, "bookName": "Interpreter of Maladies", "authId": 113}, {"id": 133, "bookName": "A People's History of the United States: 1492 to Present ", "authId": 114}, {"id": 134, "bookName": "Breakfast at Tiffany's", "authId": 115}, {"id": 135, "bookName": "The Passage", "authId": 116}, {"id": 136, "bookName": "Anansi Boys", "authId": 117}, {"id": 137, "bookName": "Along for the Ride", "authId": 10}, {"id": 138, "bookName": "Everything I Never Told You", "authId": 118}, {"id": 139, "bookName": "La casa de los esp adritus", "authId": 119}, {"id": 140, "bookName": "The Dead Zone", "authId": 22}, {"id": 141, "bookName": "The Mysterious Affair at Styles", "authId": 120}, {"id": 142, "bookName": "Murder in the Calais Coach", "authId": 121}, {"id": 143, "bookName": "Americanah", "authId": 122}, {"id": 144, "bookName": "Suzanne's Diary for Nicholas", "authId": 35}, {"id": 145, "bookName": "Firestarter", "authId": 22}, {"id": 146, "bookName": "Entwined with You", "authId": 123}, {"id": 147, "bookName": "Born to Run: A Hidden Tribe, Superathletes, and the Greatest Race the World Has Never Seen", "authId": 124}, {"id": 148, "bookName": "The Storied Life of A.J. Fikry", "authId": 125}, {"id": 149, "bookName": "Mad About Madeline", "authId": 126}, {"id": 150, "bookName": "Think and Grow Rich", "authId": 127}, {"id": 151, "bookName": "Little House In The Big Woods", "authId": 13}, {"id": 152, "bookName": "Jonathan Strange & Mr Norrell", "authId": 128}, {"id": 153, "bookName": "A Bend in the Road", "authId": 21}, {"id": 154, "bookName": "The House of Hades", "authId": 129}, {"id": 155, "bookName": "Gone", "authId": 130}, {"id": 156, "bookName": "The Wedding", "authId": 21}, {"id": 157, "bookName": "1776", "authId": 131}, {"id": 158, "bookName": "Under the Banner of Heaven: A Story of Violent Faith", "authId": 132}, {"id": 159, "bookName": "Beautiful Ruins", "authId": 133}, {"id": 160, "bookName": "The Audacity of Hope: Thoughts on Reclaiming the American Dream", "authId": 111}, {"id": 161, "bookName": "On Writing: A Memoir of the Craft", "authId": 22}, {"id": 162, "bookName": "Firefly Lane", "authId": 134}, {"id": 163, "bookName": "Sphere", "authId": 40}, {"id": 164, "bookName": "Love the One You're With", "authId": 101}, {"id": 165, "bookName": "The Silkworm", "authId": 135}, {"id": 166, "bookName": "The Vampire Lestat", "authId": 136}, {"id": 167, "bookName": "State of Wonder", "authId": 137}, {"id": 168, "bookName": "The Silver Linings Playbook", "authId": 138}, {"id": 169, "bookName": "Vingt Mille Lieues Sous les Mers", "authId": 139}, {"id": 170, "bookName": "The Constant Princess", "authId": 140}, {"id": 171, "bookName": "Mrs Dalloway", "authId": 141}, {"id": 172, "bookName": "Hundra ringen som klev ut genom nstret och rsvann", "authId": 142}, {"id": 173, "bookName": "Bag of Bones", "authId": 22}, {"id": 174, "bookName": "The Cider House Rules", "authId": 143}, {"id": 175, "bookName": "Thinner", "authId": 144}, {"id": 176, "bookName": "Le tour du monde en quatre-vingts jours", "authId": 145}, {"id": 177, "bookName": "Walk Two Moons", "authId": 146}, {"id": 178, "bookName": "Onze minutos", "authId": 87}, {"id": 179, "bookName": "Nine Stories", "authId": 147}, {"id": 180, "bookName": "Julie & Julia: 365 Days, 524 Recipes, 1 Tiny Apartment Kitchen", "authId": 148}, {"id": 181, "bookName": "Unwind", "authId": 149}, {"id": 182, "bookName": "Drums of Autumn (Outlander, #4)", "authId": 23}, {"id": 183, "bookName": "Prodigy", "authId": 150}, {"id": 184, "bookName": "The Tragedie of King Lear", "authId": 151}, {"id": 185, "bookName": "Death of a Salesman", "authId": 152}, {"id": 186, "bookName": "The Choice", "authId": 21}, {"id": 187, "bookName": NaN, "authId": 153}, {"id": 188, "bookName": "The Sound and the Fury", "authId": 154}, {"id": 189, "bookName": "A New Earth: Awakening to Your Life's Purpose", "authId": 155}, {"id": 190, "bookName": "BLEACH", "authId": 156}, {"id": 191, "bookName": NaN, "authId": 157}, {"id": 192, "bookName": "The Shadow Rising ", "authId": 158}, {"id": 193, "bookName": "Shantaram", "authId": 159}, {"id": 194, "bookName": "From Dead to Worse", "authId": 26}, {"id": 195, "bookName": "The Waste Lands", "authId": 160}, {"id": 196, "bookName": "The Bone Collector", "authId": 161}, {"id": 197, "bookName": "Der Vorleser", "authId": 162}, {"id": 198, "bookName": "Brown Bear, Brown Bear, What Do You See?", "authId": 163}, {"id": 199, "bookName": "Hyperion", "authId": 164}, {"id": 200, "bookName": "The Pearl of the World", "authId": 165}, {"id": 201, "bookName": "The Exorcist", "authId": 166}, {"id": 202, "bookName": "The Short Second Life of Bree Tanner", "authId": 167}, {"id": 203, "bookName": "Snow Falling on Cedars", "authId": 168}, {"id": 204, "bookName": "Roots", "authId": 169}, {"id": 205, "bookName": "Batman: The Killing Joke ", "authId": 170}, {"id": 206, "bookName": "Invisible Man", "authId": 171}, {"id": 207, "bookName": "A Long Way Gone. Memoirs of a Boy Soldier", "authId": 172}, {"id": 208, "bookName": "Mrs. Frisby and the Rats of NIMH", "authId": 173}, {"id": 209, "bookName": "Different Seasons", "authId": 22}, {"id": 210, "bookName": "The Little House Collection", "authId": 13}, {"id": 211, "bookName": "The Girls' Guide to Hunting and Fishing", "authId": 174}, {"id": 212, "bookName": "Wool Omnibus", "authId": 175}, {"id": 213, "bookName": "Lamb: The Gospel According to Biff, Christ's Childhood Pal", "authId": 176}, {"id": 214, "bookName": "The Power of Now", "authId": 155}, {"id": 215, "bookName": "Let's Pretend This Never Happened (A Mostly True Memoir)", "authId": 177}, {"id": 216, "bookName": "The Lies of Locke Lamora", "authId": 178}, {"id": 217, "bookName": "Sabriel", "authId": 179}, {"id": 218, "bookName": "Dead and Gone", "authId": 26}, {"id": 219, "bookName": "The Storyteller", "authId": 77}, {"id": 220, "bookName": "Obsidian", "authId": 180}, {"id": 221, "bookName": "Life, the Universe and Everything", "authId": 64}, {"id": 222, "bookName": "Crown of Midnight", "authId": 181}, {"id": 223, "bookName": "Scott Pilgrim, Volume 1: Scott Pilgrim's Precious Little Life", "authId": 182}, {"id": 224, "bookName": "Half Broke Horses: A True Life Novel", "authId": 183}, {"id": 225, "bookName": "Mort", "authId": 184}, {"id": 226, "bookName": "The Iron King (The Iron Fey, #1) ", "authId": 185}, {"id": 227, "bookName": "Lonesome Dove", "authId": 186}, {"id": 228, "bookName": "Stiff: The Curious Lives of Human Cadavers", "authId": 187}, {"id": 229, "bookName": "Bloodlines", "authId": 12}, {"id": 230, "bookName": "Ender's Shadow", "authId": 188}, {"id": 231, "bookName": "Twenties Girl", "authId": 91}, {"id": 232, "bookName": "Schindler's Ark", "authId": 189}, {"id": 233, "bookName": "The Bluest Eye", "authId": 190}, {"id": 234, "bookName": "The White Queen", "authId": 140}, {"id": 235, "bookName": "The Autobiography of Malcolm X", "authId": 191}, {"id": 236, "bookName": "Preludes & Nocturnes", "authId": 192}, {"id": 237, "bookName": "Seabiscuit", "authId": 193}, {"id": 238, "bookName": "Shutter Island", "authId": 194}, {"id": 239, "bookName": "The Complete Sherlock Holmes", "authId": 195}, {"id": 240, "bookName": "The Tragedy of Julius Caesar", "authId": 196}, {"id": 241, "bookName": "In the Garden of Beasts: Love, Terror, and an American Family in Hitler's Berlin", "authId": 197}, {"id": 242, "bookName": "None", "authId": 198}, {"id": 243, "bookName": "The Taming of the Shrew", "authId": 151}, {"id": 244, "bookName": "Cress", "authId": 46}, {"id": 245, "bookName": "Just Kids", "authId": 199}, {"id": 246, "bookName": NaN, "authId": 200}, {"id": 247, "bookName": "Jemima J", "authId": 201}, {"id": 248, "bookName": "Notre-Dame de Paris", "authId": 202}, {"id": 249, "bookName": "A Fine Balance", "authId": 203}, {"id": 250, "bookName": "Calvin and Hobbes", "authId": 204}, {"id": 251, "bookName": "Specials", "authId": 205}, {"id": 252, "bookName": "The Awakening", "authId": 206}, {"id": 253, "bookName": "Hunted", "authId": 98}, {"id": 254, "bookName": "For One More Day", "authId": 207}, {"id": 255, "bookName": "Clear and Present Danger", "authId": 86}, {"id": 256, "bookName": "Falling Up", "authId": 208}, {"id": 257, "bookName": "Sh*t My Dad Says", "authId": 209}, {"id": 258, "bookName": "Trainspotting", "authId": 210}, {"id": 259, "bookName": "Foundation and Empire", "authId": 211}, {"id": 260, "bookName": "The Four Agreements: A Practical Guide to Personal Freedom, A Toltec Wisdom Book", "authId": 212}, {"id": 261, "bookName": "House Rules", "authId": 77}, {"id": 262, "bookName": "Brder Grimm: Kinder- und Hausm rchen", "authId": 213}, {"id": 263, "bookName": "From the Mixed-Up Files of Mrs. Basil E. Frankweiler", "authId": 214}, {"id": 264, "bookName": "Doctor Sleep", "authId": 22}, {"id": 265, "bookName": "About a Boy", "authId": 36}, {"id": 266, "bookName": "On Dublin Street", "authId": 215}, {"id": 267, "bookName": "Crazy Love: Overwhelmed by a Relentless God", "authId": 216}, {"id": 268, "bookName": "One Fish, Two Fish, Red Fish, Blue Fish", "authId": 217}, {"id": 269, "bookName": "Watchers", "authId": 218}, {"id": 270, "bookName": "The Story of My Life", "authId": 219}, {"id": 271, "bookName": "This Is Where I Leave You", "authId": 220}, {"id": 272, "bookName": "Abraham Lincoln: Vampire Hunter", "authId": 221}, {"id": 273, "bookName": " None", "authId": 222}, {"id": 274, "bookName": "The Tempest", "authId": 151}, {"id": 275, "bookName": "Burned: A House of Night Novel", "authId": 98}, {"id": 276, "bookName": "Wizard and Glass", "authId": 223}, {"id": 277, "bookName": "The Circle", "authId": 224}, {"id": 278, "bookName": "The Invention of Hugo Cabret", "authId": 225}, {"id": 279, "bookName": "Brave New World/Brave New World Revisited", "authId": 226}, {"id": 280, "bookName": "None", "authId": 227}, {"id": 281, "bookName": "The Good Girl", "authId": 228}, {"id": 282, "bookName": "Fallen Too Far (Too Far, #1)", "authId": 229}, {"id": 283, "bookName": "Landline", "authId": 230}, {"id": 284, "bookName": "Tempted", "authId": 98}, {"id": 285, "bookName": "No Country for Old Men", "authId": 231}, {"id": 286, "bookName": "Wolf Hall", "authId": 232}, {"id": 287, "bookName": "Howl's Moving Castle", "authId": 233}, {"id": 288, "bookName": "Dreamcatcher", "authId": 234}, {"id": 289, "bookName": "Walden; or Life in the Woods", "authId": 235}, {"id": 290, "bookName": "The Remains of the Day", "authId": 236}, {"id": 291, "bookName": "The Best of Me", "authId": 21}, {"id": 292, "bookName": "The Sense of an Ending", "authId": 237}, {"id": 293, "bookName": "A is for Alibi", "authId": 238}, {"id": 294, "bookName": "None", "authId": 239}, {"id": 295, "bookName": "Shanghai Girls", "authId": 240}, {"id": 296, "bookName": "The Wind in the Willows", "authId": 241}, {"id": 297, "bookName": "To All the Boys I've Loved Before", "authId": 242}, {"id": 298, "bookName": "Persepolis", "authId": 243}, {"id": 299, "bookName": "A Room with a View", "authId": 244}, {"id": 300, "bookName": "The DUFF: Designated Ugly Fat Friend", "authId": 245}, {"id": 301, "bookName": "Lock and Key", "authId": 10}, {"id": 302, "bookName": "Naked in Death", "authId": 246}, {"id": 303, "bookName": "The Chamber", "authId": 61}, {"id": 304, "bookName": "Midnight Sun (Partial Draft)", "authId": 167}, {"id": 305, "bookName": "NARUTO", "authId": 247}, {"id": 306, "bookName": "The Unlikely Pilgrimage of Harold Fry", "authId": 248}, {"id": 307, "bookName": "Every Day", "authId": 249}, {"id": 308, "bookName": "Xenocide", "authId": 188}, {"id": 309, "bookName": "The Merchant of Venice", "authId": 250}, {"id": 310, "bookName": "Sh", "authId": 251}, {"id": 311, "bookName": "Lover Awakened (Black Dagger Brotherhood, #3)", "authId": 252}, {"id": 312, "bookName": "A Court of Thorns and Roses", "authId": 181}, {"id": 313, "bookName": NaN, "authId": 253}, {"id": 314, "bookName": "Chicka Chicka Boom Boom", "authId": 254}, {"id": 315, "bookName": "Smile", "authId": 255}, {"id": 316, "bookName": " Animal Farm & 1984", "authId": 256}, {"id": 317, "bookName": "The Deep End of the Ocean", "authId": 257}, {"id": 318, "bookName": "The Bonesetter's Daughter", "authId": 258}, {"id": 319, "bookName": "Angus, Thongs and Full-Frontal Snogging", "authId": 259}, {"id": 320, "bookName": "Mr. Penumbra's 24-Hour Bookstore", "authId": 260}, {"id": 321, "bookName": "Flowers in the Attic", "authId": 261}, {"id": 322, "bookName": "When Breath Becomes Air", "authId": 262}, {"id": 323, "bookName": "Maniac Magee", "authId": 263}, {"id": 324, "bookName": "Invisible Monsters", "authId": 264}, {"id": 325, "bookName": "Twelfth Night; or, What You Will", "authId": 151}, {"id": 326, "bookName": "Gathering Blue", "authId": 265}, {"id": 327, "bookName": "The Westing Game", "authId": 266}, {"id": 328, "bookName": "Red Rising", "authId": 267}, {"id": 329, "bookName": "The Way of Shadows", "authId": 268}, {"id": 330, "bookName": "The Bean Trees", "authId": 269}, {"id": 331, "bookName": "Walking Disaster", "authId": 270}, {"id": 332, "bookName": "Words of Radiance", "authId": 30}, {"id": 333, "bookName": "Guess How Much I Love You", "authId": 271}, {"id": 334, "bookName": "The Fiery Cross", "authId": 23}, {"id": 335, "bookName": "Night Shift", "authId": 272}, {"id": 336, "bookName": "Jaws", "authId": 273}, {"id": 337, "bookName": "The History of Love", "authId": 274}, {"id": 338, "bookName": "Pippi L ngstrump", "authId": 275}, {"id": 339, "bookName": "L'gance du h risson", "authId": 276}, {"id": 340, "bookName": "Team of Rivals: The Political Genius of Abraham Lincoln", "authId": 277}, {"id": 341, "bookName": "Dead in the Family", "authId": 26}, {"id": 342, "bookName": "La peste", "authId": 278}, {"id": 343, "bookName": "The Reptile Room", "authId": 279}, {"id": 344, "bookName": "Brain on Fire", "authId": 280}, {"id": 345, "bookName": "Wicked Lovely ", "authId": 281}, {"id": 346, "bookName": "Curious George", "authId": 282}, {"id": 347, "bookName": "Die unendliche Geschichte", "authId": 283}, {"id": 348, "bookName": "A Beautiful Mind", "authId": 284}, {"id": 349, "bookName": "The Jungle", "authId": 285}, {"id": 350, "bookName": "The Summoning", "authId": 286}, {"id": 351, "bookName": "The Man Who Mistook His Wife for a Hat and Other Clinical Tales", "authId": 287}, {"id": 352, "bookName": "Storm Island", "authId": 97}, {"id": 353, "bookName": "The Blind Assassin", "authId": 37}, {"id": 354, "bookName": "Hollow City", "authId": 288}, {"id": 355, "bookName": "House of Sand and Fog", "authId": 289}, {"id": 356, "bookName": "The Girl with All the Gifts", "authId": 290}, {"id": 357, "bookName": "As I Lay Dying", "authId": 154}, {"id": 358, "bookName": "Harold and the Purple Crayon", "authId": 291}, {"id": 359, "bookName": "Lover Eternal (Black Dagger Brotherhood, #2)", "authId": 252}, {"id": 360, "bookName": NaN, "authId": 211}, {"id": 361, "bookName": "Fool Moon ", "authId": 292}, {"id": 362, "bookName": "David and Goliath", "authId": 293}, {"id": 363, "bookName": "None", "authId": 294}, {"id": 364, "bookName": "Guards! Guards!", "authId": 184}, {"id": 365, "bookName": "The Year of Magical Thinking", "authId": 295}, {"id": 366, "bookName": "We Need to Talk About Kevin", "authId": 296}, {"id": 367, "bookName": "Rendezvous with Rama", "authId": 297}, {"id": 368, "bookName": "The Queen of the Damned", "authId": 136}, {"id": 369, "bookName": "The Age of Innocence", "authId": 298}, {"id": 370, "bookName": "The Selfish Gene", "authId": 299}, {"id": 371, "bookName": "Year of Wonders: A Novel of the Plague", "authId": 300}, {"id": 372, "bookName": "The Black Echo", "authId": 301}, {"id": 373, "bookName": "Anthem", "authId": 302}, {"id": 374, "bookName": "Gabriel's Inferno", "authId": 303}, {"id": 375, "bookName": "Cloudy with a Chance of Meatballs", "authId": 304}, {"id": 376, "bookName": "Major Pettigrew's Last Stand", "authId": 305}, {"id": 377, "bookName": "Vision in White", "authId": 306}, {"id": 378, "bookName": "The Tenth Circle", "authId": 77}, {"id": 379, "bookName": "The Throne of Fire", "authId": 129}, {"id": 380, "bookName": "Old Man's War", "authId": 307}, {"id": 381, "bookName": "Gerald's Game", "authId": 22}, {"id": 382, "bookName": "Two for the Dough", "authId": 308}, {"id": 383, "bookName": "The Joy of Cooking", "authId": 309}, {"id": 384, "bookName": "The Forever War", "authId": 310}, {"id": 385, "bookName": "Insomnia", "authId": 311}, {"id": 386, "bookName": "Reading Lolita in Tehran: A Memoir in Books", "authId": 312}, {"id": 387, "bookName": "The Blade Itself", "authId": 313}, {"id": 388, "bookName": "The Arctic Incident", "authId": 314}, {"id": 389, "bookName": "The Shipping News", "authId": 315}, {"id": 390, "bookName": "None", "authId": 316}, {"id": 391, "bookName": "All the Bright Places", "authId": 317}, {"id": 392, "bookName": "D Dead", "authId": 318}, {"id": 393, "bookName": "The Alchemyst: The Secrets of The Immortal Nicholas Flamel", "authId": 319}, {"id": 394, "bookName": "The Marriage Plot", "authId": 25}, {"id": 395, "bookName": "Hija de la fortuna", "authId": 320}, {"id": 396, "bookName": "Luckiest Girl Alive", "authId": 321}, {"id": 397, "bookName": "Crank (Crank, #1)", "authId": 322}, {"id": 398, "bookName": "The Raven Boys", "authId": 323}, {"id": 399, "bookName": "I Am Legend and Other Stories", "authId": 324}, {"id": 400, "bookName": "Olive Kitteridge", "authId": 325}, {"id": 401, "bookName": "Not that Kind of Girl", "authId": 326}, {"id": 402, "bookName": "Good to Great: Why Some Companies Make the Leap... and Others Don't", "authId": 327}, {"id": 403, "bookName": "Fire", "authId": 328}, {"id": 404, "bookName": "En attendant Godot", "authId": 329}, {"id": 405, "bookName": "White Fang", "authId": 330}, {"id": 406, "bookName": "Wolves of the Calla", "authId": 331}, {"id": 407, "bookName": "His Dark Materials", "authId": 332}, {"id": 408, "bookName": "The Edge of Never", "authId": 333}, {"id": 409, "bookName": "Reconstructing Amelia", "authId": 334}, {"id": 410, "bookName": "The One Plus One", "authId": 32}, {"id": 411, "bookName": "The Hours", "authId": 335}, {"id": 412, "bookName": "Wallbanger", "authId": 336}, {"id": 413, "bookName": "Holidays on Ice", "authId": 3}, {"id": 414, "bookName": "Desperation", "authId": 22}, {"id": 415, "bookName": "Passion", "authId": 65}, {"id": 416, "bookName": "The Kill Order", "authId": 337}, {"id": 417, "bookName": "Angelfall", "authId": 338}, {"id": 418, "bookName": "Empire Falls", "authId": 339}, {"id": 419, "bookName": "The Fires of Heaven", "authId": 158}, {"id": 420, "bookName": "I'll Give You the Sun", "authId": 340}, {"id": 421, "bookName": "Survivor", "authId": 264}, {"id": 422, "bookName": "Shopaholic and Baby", "authId": 91}, {"id": 423, "bookName": "The Dark Tower", "authId": 22}, {"id": 424, "bookName": "Twilight Director's Notebook", "authId": 341}, {"id": 425, "bookName": "Shopaholic Abroad", "authId": 91}, {"id": 426, "bookName": "Surely You're Joking, Mr. Feynman! Adventures of a Curious Character", "authId": 342}, {"id": 427, "bookName": "Linger", "authId": 323}, {"id": 428, "bookName": "The Complete Anne of Green Gables Boxed Set", "authId": 343}, {"id": 429, "bookName": "A Portrait of the Artist as a Young Man", "authId": 344}, {"id": 430, "bookName": "The Gathering Storm", "authId": 345}, {"id": 431, "bookName": "Middlemarch", "authId": 346}, {"id": 432, "bookName": "Point of Retreat", "authId": 8}, {"id": 433, "bookName": "The Partner", "authId": 61}, {"id": 434, "bookName": "The Hobbit and The Lord of the Rings", "authId": 347}, {"id": 435, "bookName": "Thoughtless", "authId": 348}, {"id": 436, "bookName": "Presumed Innocent", "authId": 349}, {"id": 437, "bookName": "The Dark Half", "authId": 22}, {"id": 438, "bookName": "Cleopatra: A Life", "authId": 350}, {"id": 439, "bookName": "The World Is Flat: A Brief History of the Twenty-first Century", "authId": 351}, {"id": 440, "bookName": "Steelheart", "authId": 30}, {"id": 441, "bookName": NaN, "authId": 352}, {"id": 442, "bookName": "Voyage au centre de la Terre", "authId": 353}, {"id": 443, "bookName": "The Happiness Project", "authId": 354}, {"id": 444, "bookName": "The Man in the High Castle", "authId": 355}, {"id": 445, "bookName": "Helter Skelter: The True Story of The Manson Murders", "authId": 356}, {"id": 446, "bookName": NaN, "authId": 357}, {"id": 447, "bookName": "Inferno", "authId": 358}, {"id": 448, "bookName": "Shadow of Night", "authId": 359}, {"id": 449, "bookName": "Leaving Time", "authId": 77}, {"id": 450, "bookName": "Moon Called", "authId": 360}, {"id": 451, "bookName": "Blue Bloods", "authId": 361}, {"id": 452, "bookName": "The Alienist", "authId": 362}, {"id": 453, "bookName": "Between the World and Me", "authId": 363}, {"id": 454, "bookName": "Paradise Lost", "authId": 364}, {"id": 455, "bookName": "The Big Short: Inside the Doomsday Machine", "authId": 365}, {"id": 456, "bookName": "The Girl Who Loved Tom Gordon", "authId": 22}, {"id": 457, "bookName": " A Monster Calls ", "authId": 366}, {"id": 458, "bookName": "Towers of Midnight", "authId": 345}, {"id": 459, "bookName": "The Day of the Jackal", "authId": 367}, {"id": 460, "bookName": "Rework", "authId": 368}, {"id": 461, "bookName": "Attachments", "authId": 230}, {"id": 462, "bookName": "The Twilight Saga", "authId": 369}, {"id": 463, "bookName": "Tell the Wolves I'm Home", "authId": 370}, {"id": 464, "bookName": "All Creatures Great And Small", "authId": 371}, {"id": 465, "bookName": "The Unbecoming of Mara Dyer", "authId": 372}, {"id": 466, "bookName": "Three to Get Deadly", "authId": 308}, {"id": 467, "bookName": "The Scarlet Pimpernel", "authId": 373}, {"id": 468, "bookName": "The Monster at the End of This Book", "authId": 374}, {"id": 469, "bookName": "Tales of a Fourth Grade Nothing", "authId": 82}, {"id": 470, "bookName": "Shadow and Bone", "authId": 375}, {"id": 471, "bookName": "Het diner", "authId": 376}, {"id": 472, "bookName": "Champion", "authId": 150}, {"id": 473, "bookName": "Contact", "authId": 377}, {"id": 474, "bookName": "Lola and the Boy Next Door", "authId": 378}, {"id": 475, "bookName": "White Teeth", "authId": 379}, {"id": 476, "bookName": "American Sniper: The Autobiography of the Most Lethal Sniper in U.S. Military History", "authId": 380}, {"id": 477, "bookName": "My Horizontal Life: A Collection of One-Night Stands", "authId": 69}, {"id": 478, "bookName": "The Power of Six", "authId": 381}, {"id": 479, "bookName": "The Interestings", "authId": 382}, {"id": 480, "bookName": "The Essential Calvin and Hobbes: A Calvin and Hobbes Treasury", "authId": 383}, {"id": 481, "bookName": "People of the Book", "authId": 300}, {"id": 482, "bookName": "The Secret Keeper", "authId": 75}, {"id": 483, "bookName": "Better Homes & Gardens New Cook Book", "authId": 384}, {"id": 484, "bookName": "So Long, and Thanks for All the Fish", "authId": 64}, {"id": 485, "bookName": "Der Steppenwolf: Erz hlung", "authId": 385}, {"id": 486, "bookName": "The Surgeon", "authId": 386}, {"id": 487, "bookName": "The Girl You Left Behind", "authId": 32}, {"id": 488, "bookName": "Royal Assassin", "authId": 63}, {"id": 489, "bookName": "Childhood's End", "authId": 297}, {"id": 490, "bookName": " The Tale of Despereaux", "authId": 387}, {"id": 491, "bookName": "Animal, Vegetable, Miracle: A Year of Food Life", "authId": 388}, {"id": 492, "bookName": "Heir of Fire", "authId": 181}, {"id": 493, "bookName": NaN, "authId": 158}, {"id": 494, "bookName": "The Sweetness at the Bottom of the Pie", "authId": 389}, {"id": 495, "bookName": "Blue Like Jazz: Nonreligious Thoughts on Christian Spirituality", "authId": 390}, {"id": 496, "bookName": "A Breath of Snow and Ashes", "authId": 23}, {"id": 497, "bookName": "The Blood of Olympus", "authId": 129}, {"id": 498, "bookName": "Truly Madly Guilty", "authId": 391}, {"id": 499, "bookName": "Saga, Volume One", "authId": 392}, {"id": 500, "bookName": "The Art of Fielding", "authId": 393}, {"id": 501, "bookName": "A Moveable Feast", "authId": 394}, {"id": 502, "bookName": "Fablehaven", "authId": 395}, {"id": 503, "bookName": "The Wide Window", "authId": 279}, {"id": 504, "bookName": "Grave Peril", "authId": 292}, {"id": 505, "bookName": "Einstein. His Life and Universe", "authId": 396}, {"id": 506, "bookName": "Effortless", "authId": 348}, {"id": 507, "bookName": "The Street Lawyer", "authId": 61}, {"id": 508, "bookName": "Roll of Thunder, Hear My Cry", "authId": 397}, {"id": 509, "bookName": "Pride and Prejudice and Zombies", "authId": 398}, {"id": 510, "bookName": "Lets Explore Diabetes with Owls", "authId": 3}, {"id": 511, "bookName": "None", "authId": 399}, {"id": 512, "bookName": "Dirk Gently's Holistic Detective Agency", "authId": 64}, {"id": 513, "bookName": "Rodrick Rules", "authId": 400}, {"id": 514, "bookName": "Why Not Me?", "authId": 401}, {"id": 515, "bookName": "Four: A Divergent Collection", "authId": 402}, {"id": 516, "bookName": "Modern Romance", "authId": 403}, {"id": 517, "bookName": "The One and Only Ivan", "authId": 404}, {"id": 518, "bookName": "The Perfect Storm: A True Story of Men Against the Sea", "authId": 405}, {"id": 519, "bookName": "Elantris", "authId": 30}, {"id": 520, "bookName": "The Knife of Never Letting Go", "authId": 406}, {"id": 521, "bookName": "One Thousand White Women: The Journals of May Dodd", "authId": 407}, {"id": 522, "bookName": "Handle with Care", "authId": 77}, {"id": 523, "bookName": "Song of Susannah", "authId": 408}, {"id": 524, "bookName": "Reached", "authId": 108}, {"id": 525, "bookName": "Midnight's Children", "authId": 409}, {"id": 526, "bookName": "The Zombie Survival Guide: Complete Protection from the Living Dead", "authId": 410}, {"id": 527, "bookName": "The Testament", "authId": 61}, {"id": 528, "bookName": "Murder at the Vicarage", "authId": 121}, {"id": 529, "bookName": "Among the Hidden ", "authId": 411}, {"id": 530, "bookName": "In Defense of Food: An Eater's Manifesto", "authId": 19}, {"id": 531, "bookName": "The Witch of Blackbird Pond", "authId": 412}, {"id": 532, "bookName": "The Heir", "authId": 413}, {"id": 533, "bookName": "Shopaholic Ties the Knot", "authId": 91}, {"id": 534, "bookName": "The Woman in White", "authId": 414}, {"id": 535, "bookName": "Career of Evil", "authId": 135}, {"id": 536, "bookName": "The Summer I Turned Pretty", "authId": 242}, {"id": 537, "bookName": "Four to Score ", "authId": 308}, {"id": 538, "bookName": "The Color of Water: A Black Man's Tribute to His White Mother", "authId": 415}, {"id": 539, "bookName": "SuperFreakonomics: Global Cooling, Patriotic Prostitutes, and Why Suicide Bombers Should Buy Life Insurance", "authId": 416}, {"id": 540, "bookName": "Darkfever", "authId": 417}, {"id": 541, "bookName": "Stone of Tears", "authId": 418}, {"id": 542, "bookName": "Heart of the Matter", "authId": 101}, {"id": 543, "bookName": "Vanity Fair: A Novel Without a Hero", "authId": 419}, {"id": 544, "bookName": "The Sirens of Titan", "authId": 420}, {"id": 545, "bookName": "Dolores Claiborne", "authId": 421}, {"id": 546, "bookName": "The Nest", "authId": 422}, {"id": 547, "bookName": "Fables, Volume 1: Legends in Exile", "authId": 423}, {"id": 548, "bookName": "Getting Things Done: How To Achieve Stress-free Productivity", "authId": 424}, {"id": 549, "bookName": "The Celestine Prophecy", "authId": 425}, {"id": 550, "bookName": "My Life Next Door ", "authId": 426}, {"id": 551, "bookName": "Winter of the World", "authId": 97}, {"id": 552, "bookName": "[Shikisai o motanai Tazaki Tsukuru to, kare no junrei no toshi]", "authId": 427}, {"id": 553, "bookName": "Lucky", "authId": 428}, {"id": 554, "bookName": "To The Lighthouse ", "authId": 429}, {"id": 555, "bookName": "Five Point Someone: What Not to Do at IIT", "authId": 430}, {"id": 556, "bookName": "Guilty Pleasures", "authId": 431}, {"id": 557, "bookName": "The Messenger", "authId": 432}, {"id": 558, "bookName": "Far from the Madding Crowd", "authId": 433}, {"id": 559, "bookName": "Equal Rites", "authId": 184}, {"id": 560, "bookName": "House of Leaves", "authId": 434}, {"id": 561, "bookName": "Cruel & Unusual", "authId": 435}, {"id": 562, "bookName": "Sycamore Row", "authId": 61}, {"id": 563, "bookName": "Awakened", "authId": 98}, {"id": 564, "bookName": "My tonia", "authId": 436}, {"id": 565, "bookName": "Life As We Knew It", "authId": 437}, {"id": 566, "bookName": "America (The Book): A Citizen's Guide to Democracy Inaction", "authId": 438}, {"id": 567, "bookName": "90 Minutes in Heaven", "authId": 439}, {"id": 568, "bookName": "The Longest Ride", "authId": 21}, {"id": 569, "bookName": "None", "authId": 440}, {"id": 570, "bookName": "Kane and Abel", "authId": 441}, {"id": 571, "bookName": "Change of Heart", "authId": 77}, {"id": 572, "bookName": "Dry: A Memoir", "authId": 442}, {"id": 573, "bookName": "Sam's Letters To Jennifer", "authId": 35}, {"id": 574, "bookName": "Grey", "authId": 253}, {"id": 575, "bookName": "Dune Messiah ", "authId": 443}, {"id": 576, "bookName": "The Great Divorce", "authId": 11}, {"id": 577, "bookName": "Little Earthquakes", "authId": 444}, {"id": 578, "bookName": "Eventyr og historier", "authId": 445}, {"id": 579, "bookName": "New Moon: The Complete Illustrated Movie Companion", "authId": 93}, {"id": 580, "bookName": "Maybe Someday", "authId": 8}, {"id": 581, "bookName": "Mr Maybe", "authId": 201}, {"id": 582, "bookName": "Anne of the Island", "authId": 343}, {"id": 583, "bookName": "Also sprach Zarathustra", "authId": 446}, {"id": 584, "bookName": "North and South", "authId": 447}, {"id": 585, "bookName": "A Stolen Life", "authId": 448}, {"id": 586, "bookName": "The Immortals of Meluha", "authId": 449}, {"id": 587, "bookName": "The Lost World", "authId": 40}, {"id": 588, "bookName": "Requiem", "authId": 450}, {"id": 589, "bookName": "A Crown of Swords", "authId": 158}, {"id": 590, "bookName": "Aesopica", "authId": 451}, {"id": 591, "bookName": "Blood Meridian: Or the Evening Redness in the West", "authId": 231}, {"id": 592, "bookName": "Finale", "authId": 48}, {"id": 593, "bookName": "Skeleton Crew", "authId": 22}, {"id": 594, "bookName": "Lullaby", "authId": 264}, {"id": 595, "bookName": "Two States", "authId": 430}, {"id": 596, "bookName": "None", "authId": 452}, {"id": 597, "bookName": "Summer Knight", "authId": 292}, {"id": 598, "bookName": "Dragonflight", "authId": 453}, {"id": 599, "bookName": "The History of the Hobbit, Part One: Mr. Baggins", "authId": 454}, {"id": 600, "bookName": "Ugly Love", "authId": 8}, {"id": 601, "bookName": "Chocolat", "authId": 455}, {"id": 602, "bookName": "The Amityville Horror", "authId": 456}, {"id": 603, "bookName": "The English Patient", "authId": 457}, {"id": 604, "bookName": "Gabriel's Rapture", "authId": 303}, {"id": 605, "bookName": "Dubliners", "authId": 458}, {"id": 606, "bookName": "Let the Great World Spin", "authId": 459}, {"id": 607, "bookName": "The Eternity Code", "authId": 314}, {"id": 608, "bookName": "Tell No One", "authId": 460}, {"id": 609, "bookName": "The Tommyknockers", "authId": 22}, {"id": 610, "bookName": "Hex Hall", "authId": 461}, {"id": 611, "bookName": "Steal Like an Artist", "authId": 462}, {"id": 612, "bookName": "Cryptonomicon", "authId": 463}, {"id": 613, "bookName": "Beautiful Bastard", "authId": 464}, {"id": 614, "bookName": "Prodigal Summer", "authId": 269}, {"id": 615, "bookName": "We Were the Mulvaneys", "authId": 465}, {"id": 616, "bookName": "Understanding Comics: The Invisible Art", "authId": 466}, {"id": 617, "bookName": "Beautiful Darkness", "authId": 467}, {"id": 618, "bookName": "The Psychopath Test", "authId": 468}, {"id": 619, "bookName": "Vanishing Acts", "authId": 77}, {"id": 620, "bookName": "Absolute Power", "authId": 469}, {"id": 621, "bookName": "Hot Six", "authId": 308}, {"id": 622, "bookName": "The Time Keeper", "authId": 207}, {"id": 623, "bookName": "A Dirty Job", "authId": 176}, {"id": 624, "bookName": "Moneyball: The Art of Winning an Unfair Game", "authId": 365}, {"id": 625, "bookName": "The Amulet of Samarkand", "authId": 470}, {"id": 626, "bookName": "I Am America (And So Can You!)", "authId": 471}, {"id": 627, "bookName": "The One Minute Manager", "authId": 472}, {"id": 628, "bookName": "Exodus", "authId": 473}, {"id": 629, "bookName": "Stones from the River", "authId": 474}, {"id": 630, "bookName": "The Big Sleep", "authId": 475}, {"id": 631, "bookName": "Cannery Row ", "authId": 165}, {"id": 632, "bookName": "Seriously...I'm Kidding", "authId": 476}, {"id": 633, "bookName": "The Miserable Mill", "authId": 279}, {"id": 634, "bookName": "The Snow Child", "authId": 477}, {"id": 635, "bookName": "Wait for You", "authId": 478}, {"id": 636, "bookName": "The Last Straw", "authId": 400}, {"id": 637, "bookName": "La Divina Commedia", "authId": 479}, {"id": 638, "bookName": "The Tao of Pooh", "authId": 480}, {"id": 639, "bookName": "Onyx", "authId": 180}, {"id": 640, "bookName": "Unravel Me (Shatter Me, #2)", "authId": 89}, {"id": 641, "bookName": "The Birth of Venus", "authId": 481}, {"id": 642, "bookName": "The Opal Deception", "authId": 314}, {"id": 643, "bookName": "Det som inte d dar oss", "authId": 482}, {"id": 644, "bookName": "The Girls", "authId": 483}, {"id": 645, "bookName": "The Goose Girl", "authId": 484}, {"id": 646, "bookName": "Mystic River", "authId": 194}, {"id": 647, "bookName": "Warm Bodies", "authId": 485}, {"id": 648, "bookName": "The Prince and the Pauper", "authId": 486}, {"id": 649, "bookName": "The Moon is a Harsh Mistress", "authId": 90}, {"id": 650, "bookName": "The Forty Rules of Love", "authId": 487}, {"id": 651, "bookName": "High Five", "authId": 308}, {"id": 652, "bookName": "Joyland", "authId": 22}, {"id": 653, "bookName": "None", "authId": 488}, {"id": 654, "bookName": "Tender Is the Night", "authId": 489}, {"id": 655, "bookName": "Cold Sassy Tree", "authId": 490}, {"id": 656, "bookName": "The Glass Menagerie", "authId": 491}, {"id": 657, "bookName": "L'amica geniale", "authId": 492}, {"id": 658, "bookName": "The 4-Hour Workweek: Escape 9-5, Live Anywhere, and Join the New Rich", "authId": 493}, {"id": 659, "bookName": "The Monk Who Sold His Ferrari: A Fable About Fulfilling Your Dreams & Reaching Your Destiny", "authId": 494}, {"id": 660, "bookName": "Rules of Civility", "authId": 495}, {"id": 661, "bookName": "Ringworld", "authId": 496}, {"id": 662, "bookName": "Between Shades of Gray", "authId": 497}, {"id": 663, "bookName": "Frindle", "authId": 498}, {"id": 664, "bookName": "Dog Days", "authId": 400}, {"id": 665, "bookName": "The Round House", "authId": 499}, {"id": 666, "bookName": "A Wind in the Door", "authId": 500}, {"id": 667, "bookName": "Free Four: Tobias Tells the Divergent Story", "authId": 402}, {"id": 668, "bookName": "A Little Life", "authId": 501}, {"id": 669, "bookName": "Y: The Last Man, Vol. 1: Unmanned", "authId": 502}, {"id": 670, "bookName": "The Alloy of Law", "authId": 30}, {"id": 671, "bookName": "Dead Reckoning", "authId": 26}, {"id": 672, "bookName": "The Accidental Tourist", "authId": 503}, {"id": 673, "bookName": "Aristotle and Dante Discover the Secrets of the Universe", "authId": 504}, {"id": 674, "bookName": "The Invisible Man", "authId": 505}, {"id": 675, "bookName": "[Sekai no owari to hdoboirudo wand rando]", "authId": 506}, {"id": 676, "bookName": "Na margem do rio Piedra eu sentei e chorei", "authId": 507}, {"id": 677, "bookName": "Der Schweizerische Robinson", "authId": 508}, {"id": 678, "bookName": "Four Past Midnight", "authId": 22}, {"id": 679, "bookName": "The Marriage Bargain", "authId": 509}, {"id": 680, "bookName": "Anne of Avonlea", "authId": 343}, {"id": 681, "bookName": "The Little Engine That Could", "authId": 510}, {"id": 682, "bookName": "We Are All Completely Beside Ourselves", "authId": 511}, {"id": 683, "bookName": "Children of the Mind", "authId": 188}, {"id": 684, "bookName": "Ulysses", "authId": 512}, {"id": 685, "bookName": "Someone Like You", "authId": 10}, {"id": 686, "bookName": "Moloka'i", "authId": 513}, {"id": 687, "bookName": "The Witching Hour", "authId": 136}, {"id": 688, "bookName": "This Present Darkness", "authId": 514}, {"id": 689, "bookName": "The Coincidence of Callie & Kayden", "authId": 515}, {"id": 690, "bookName": "Fates and Furies", "authId": 516}, {"id": 691, "bookName": "Summer Sisters", "authId": 82}, {"id": 692, "bookName": "Stuart Little", "authId": 517}, {"id": 693, "bookName": "The Foundation Trilogy", "authId": 211}, {"id": 694, "bookName": "The Elegant Universe: Superstrings, Hidden Dimensions, and the Quest for the Ultimate Theory", "authId": 518}, {"id": 695, "bookName": "The Austere Academy", "authId": 279}, {"id": 696, "bookName": "Seven Up", "authId": 308}, {"id": 697, "bookName": "The Awakening", "authId": 286}, {"id": 698, "bookName": "Death Masks", "authId": 292}, {"id": 699, "bookName": "Stellaluna", "authId": 519}, {"id": 700, "bookName": "Before They Are Hanged", "authId": 313}, {"id": 701, "bookName": "Loving Frank", "authId": 520}, {"id": 702, "bookName": "Hard Eight", "authId": 521}, {"id": 703, "bookName": "The Vile Village", "authId": 279}, {"id": 704, "bookName": "Sybil", "authId": 522}, {"id": 705, "bookName": "Cosmos", "authId": 377}, {"id": 706, "bookName": "Haunted: A Novel of Stories", "authId": 264}, {"id": 707, "bookName": "The Shell Seekers", "authId": 523}, {"id": 708, "bookName": "What Is the What: The Autobiography of Valentino Achak Deng", "authId": 224}, {"id": 709, "bookName": "Cr nica de una muerte anunciada", "authId": 524}, {"id": 710, "bookName": "A Scandal in Bohemia", "authId": 525}, {"id": 711, "bookName": "Killing Lincoln: The Shocking Assassination that Changed America Forever", "authId": 526}, {"id": 712, "bookName": "The Lowland", "authId": 113}, {"id": 713, "bookName": "The Ruins of Gorlan", "authId": 527}, {"id": 714, "bookName": "Wintergirls", "authId": 528}, {"id": 715, "bookName": "The Brethren", "authId": 61}, {"id": 716, "bookName": "Assassin's Quest", "authId": 63}, {"id": 717, "bookName": "Rosemary's Baby", "authId": 529}, {"id": 718, "bookName": "The Talisman", "authId": 530}, {"id": 719, "bookName": "The Path of Daggers", "authId": 158}, {"id": 720, "bookName": "The Dharma Bums", "authId": 531}, {"id": 721, "bookName": "The Reckoning", "authId": 286}, {"id": 722, "bookName": "Behind the Beautiful Forevers: Life, Death, and Hope in a Mumbai Undercity", "authId": 532}, {"id": 723, "bookName": "Mary Poppins", "authId": 533}, {"id": 724, "bookName": "Red Seas Under Red Skies", "authId": 178}, {"id": 725, "bookName": "The House on Mango Street", "authId": 534}, {"id": 726, "bookName": "City of Thieves", "authId": 535}, {"id": 727, "bookName": "Halfway to the Grave", "authId": 536}, {"id": 728, "bookName": "The Twits", "authId": 537}, {"id": 729, "bookName": "Abhorsen", "authId": 179}, {"id": 730, "bookName": "The Beach House", "authId": 538}, {"id": 731, "bookName": "Eyes of the Dragon", "authId": 22}, {"id": 732, "bookName": "Children of Dune", "authId": 443}, {"id": 733, "bookName": "Leviathan Wakes", "authId": 539}, {"id": 734, "bookName": "Queen of Shadows", "authId": 181}, {"id": 735, "bookName": "Maus II : And Here My Troubles Began ", "authId": 540}, {"id": 736, "bookName": "The Snowy Day", "authId": 541}, {"id": 737, "bookName": "To the Nines", "authId": 308}, {"id": 738, "bookName": "Where We Belong", "authId": 101}, {"id": 739, "bookName": "The Hot Zone: The Terrifying True Story of the Origins of the Ebola Virus", "authId": 542}, {"id": 740, "bookName": "toniku no Koibito]", "authId": 427}, {"id": 741, "bookName": "The Signature of All Things", "authId": 543}, {"id": 742, "bookName": "Eats, Shoots and Leaves", "authId": 544}, {"id": 743, "bookName": "Dead Witch Walking", "authId": 545}, {"id": 744, "bookName": NaN, "authId": 546}, {"id": 745, "bookName": "An Echo in the Bone", "authId": 23}, {"id": 746, "bookName": "Unearthly", "authId": 547}, {"id": 747, "bookName": "The Case for Christ", "authId": 548}, {"id": 748, "bookName": "Knife of Dreams", "authId": 158}, {"id": 749, "bookName": "Hoot", "authId": 549}, {"id": 750, "bookName": "neis", "authId": 550}, {"id": 751, "bookName": "This is How You Lose Her", "authId": 551}, {"id": 752, "bookName": "[Afut]", "authId": 552}, {"id": 753, "bookName": "Ishmael: An Adventure of the Mind and Spirit", "authId": 553}, {"id": 754, "bookName": "It's Not Summer Without You", "authId": 242}, {"id": 755, "bookName": "Pushing the Limits", "authId": 554}, {"id": 756, "bookName": "Quidditch Through the Ages", "authId": 555}, {"id": 757, "bookName": "Miss Nelson Is Missing!", "authId": 556}, {"id": 758, "bookName": "The Long Walk", "authId": 144}, {"id": 759, "bookName": "The Ersatz Elevator", "authId": 279}, {"id": 760, "bookName": "Messenger ", "authId": 265}, {"id": 761, "bookName": "Lover Revealed", "authId": 252}, {"id": 762, "bookName": "'Salem's Lot The Illustrated Edition", "authId": 557}, {"id": 763, "bookName": "The Mysterious Benedict Society", "authId": 558}, {"id": 764, "bookName": "God is Not Great: How Religion Poisons Everything", "authId": 559}, {"id": 765, "bookName": "Never Too Far (Too Far, #2)", "authId": 229}, {"id": 766, "bookName": "State of Fear", "authId": 40}, {"id": 767, "bookName": "The Statistical Probability of Love at First Sight", "authId": 560}, {"id": 768, "bookName": "The Golem's Eye", "authId": 470}, {"id": 769, "bookName": "Still Life with Woodpecker", "authId": 561}, {"id": 770, "bookName": "Those Who Save Us", "authId": 562}, {"id": 771, "bookName": "The Broker", "authId": 61}, {"id": 772, "bookName": "Across the Universe", "authId": 563}, {"id": 773, "bookName": "The Road Less Traveled:  A New Psychology of Love, Traditional Values, and Spiritual Growth", "authId": 564}, {"id": 774, "bookName": "Blood Rites", "authId": 292}, {"id": 775, "bookName": "The Boxcar Children", "authId": 565}, {"id": 776, "bookName": "The Silent Wife", "authId": 566}, {"id": 777, "bookName": "How to Be a Woman", "authId": 567}, {"id": 778, "bookName": "A Court of Mist and Fury", "authId": 181}, {"id": 779, "bookName": "Life", "authId": 568}, {"id": 780, "bookName": "Unaccustomed Earth", "authId": 113}, {"id": 781, "bookName": "The Pilot's Wife", "authId": 569}, {"id": 782, "bookName": "White Noise", "authId": 570}, {"id": 783, "bookName": "Band of Brothers: E Company, 506th Regiment, 101st Airborne from Normandy to Hitler's Eagle's Nest", "authId": 571}, {"id": 784, "bookName": "On the Origin of Species by Means of Natural Selection or the Preservation of Favoured Races in the Struggle for Life", "authId": 572}, {"id": 785, "bookName": "Blankets", "authId": 573}, {"id": 786, "bookName": "The Story of Edgar Sawtelle", "authId": 574}, {"id": 787, "bookName": "Drowning Ruth", "authId": 575}, {"id": 788, "bookName": "Post Office", "authId": 576}, {"id": 789, "bookName": "All the Pretty Horses", "authId": 231}, {"id": 790, "bookName": "Sherlock Holmes: The Complete Novels and Stories, Vol 2", "authId": 577}, {"id": 791, "bookName": "One Piece, Volume 01", "authId": 578}, {"id": 792, "bookName": "The Last Unicorn", "authId": 579}, {"id": 793, "bookName": "Magyk", "authId": 580}, {"id": 794, "bookName": "Fever 1793", "authId": 528}, {"id": 795, "bookName": "The Likeness", "authId": 581}, {"id": 796, "bookName": "Dead Wake: The Last Crossing of the Lusitania", "authId": 197}, {"id": 797, "bookName": "The Jungle Book", "authId": 582}, {"id": 798, "bookName": "I Am Pilgrim", "authId": 583}, {"id": 799, "bookName": "Howl and Other Poems ", "authId": 584}, {"id": 800, "bookName": "Don't Sweat the Small Stuff", "authId": 585}, {"id": 801, "bookName": "Go the Fuck to Sleep", "authId": 586}, {"id": 802, "bookName": "Mostly Harmless", "authId": 64}, {"id": 803, "bookName": "Benjamin Franklin: An American Life", "authId": 396}, {"id": 804, "bookName": "The Tiger's Wife", "authId": 587}, {"id": 805, "bookName": "Poison Study", "authId": 588}, {"id": 806, "bookName": "Lover Unbound", "authId": 252}, {"id": 807, "bookName": "Going Postal", "authId": 184}, {"id": 808, "bookName": "The Book of Mormon", "authId": 589}, {"id": 809, "bookName": "The Mist", "authId": 22}, {"id": 810, "bookName": "Dead Beat", "authId": 292}, {"id": 811, "bookName": "Golden Son", "authId": 267}, {"id": 812, "bookName": "Night Watch", "authId": 184}, {"id": 813, "bookName": "The Light Fantastic", "authId": 184}, {"id": 814, "bookName": "What the Dog Saw and Other Adventures", "authId": 293}, {"id": 815, "bookName": "Pretty Girls", "authId": 590}, {"id": 816, "bookName": "Last Argument of Kings", "authId": 313}, {"id": 817, "bookName": "Revival", "authId": 22}]
             """;
+    
+    
+    public static String Employee= """
+            [
+              {
+                "employeeId": "S10041",
+                "fullName": "John Wick",
+                "department": "CEO",
+                "designation": "CEO",
+                "hireDate": "5/15/2023",
+                "annualSalary": 100000,
+                "parent": ""
+              },
+              {
+                "employeeId": "S1015",
+                "fullName": "Matthew Wilson",
+                "department": "Information Technology",
+                "designation": "IT Manager",
+                "hireDate": "8/8/2023",
+                "annualSalary": 75000,
+                "parent": "S10041"
+              },
+              {
+                "employeeId": "S1020",
+                "fullName": "Jennifer Davis",
+                "department": "Quality Assurance",
+                "designation": "QA Manager",
+                "hireDate": "1/17/2023",
+                "annualSalary": 75000,
+                "parent": "S10041"
+              },
+              {
+                "employeeId": "S1014",
+                "fullName": "Jessica Gonzalez",
+                "department": "Sales",
+                "designation": "Sales Manager",
+                "hireDate": "5/3/2023",
+                "annualSalary": 72000,
+                "parent": "S10041"
+              },
+              {
+                "employeeId": "S1019",
+                "fullName": "Daniel Smith",
+                "department": "Production",
+                "designation": "Production Manager",
+                "hireDate": "9/30/2023",
+                "annualSalary": 72000,
+                "parent": "S10041"
+              },
+              {
+                "employeeId": "S1013",
+                "fullName": "Richard Perez",
+                "department": "Finance",
+                "designation": "Finance Manager",
+                "hireDate": "11/18/2023",
+                "annualSalary": 70000,
+                "parent": "S10041"
+              },
+              {
+                "employeeId": "S1018",
+                "fullName": "Laura Brown",
+                "department": "Research and Development",
+                "designation": "R&D Manager",
+                "hireDate": "6/25/2023",
+                "annualSalary": 70000,
+                "parent": "S10041"
+              },
+              {
+                "employeeId": "S1025",
+                "fullName": "David Wilson",
+                "department": "Information Technology",
+                "designation": "Senior IT Specialist",
+                "hireDate": "8/30/2023",
+                "annualSalary": 70000,
+                "parent": "S1015"
+              },
+              {
+                "employeeId": "S1017",
+                "fullName": "James Johnson",
+                "department": "Customer Service",
+                "designation": "Customer Service Manager",
+                "hireDate": "3/12/2023",
+                "annualSalary": 68000,
+                "parent": "S10041"
+              },
+              {
+                "employeeId": "S1006",
+                "fullName": "Lisa Taylor",
+                "department": "Operations",
+                "designation": "Operations Manager",
+                "hireDate": "6/30/2023",
+                "annualSalary": 65000,
+                "parent": "S10041"
+              },
+              {
+                "employeeId": "S1012",
+                "fullName": "Melissa Lopez",
+                "department": "Marketing",
+                "designation": "Marketing Manager",
+                "hireDate": "6/10/2023",
+                "annualSalary": 65000,
+                "parent": "S10041"
+              },
+              {
+                "employeeId": "S1030",
+                "fullName": "Jennifer Martinez",
+                "department": "Quality Assurance",
+                "designation": "Senior QA Analyst",
+                "hireDate": "2/22/2023",
+                "annualSalary": 62000,
+                "parent": "S1020"
+              },
+              {
+                "employeeId": "S1001",
+                "fullName": "John Smith",
+                "department": "Human Resources",
+                "designation": "HR Manager",
+                "hireDate": "5/15/2023",
+                "annualSalary": 60000,
+                "parent": "S10041"
+              },
+              {
+                "employeeId": "S1005",
+                "fullName": "David Wilson",
+                "department": "Information Technology",
+                "designation": "IT Specialist",
+                "hireDate": "9/12/2023",
+                "annualSalary": 60000,
+                "parent": "S1025"
+              },
+              {
+                "employeeId": "S1023",
+                "fullName": "Christopher Rodriguez",
+                "department": "Finance",
+                "designation": "Senior Financial Analyst",
+                "hireDate": "11/12/2023",
+                "annualSalary": 60000,
+                "parent": "S1013"
+              },
+              {
+                "employeeId": "S1029",
+                "fullName": "Daniel Wilson",
+                "department": "Production",
+                "designation": "Senior Production Supervisor",
+                "hireDate": "9/8/2023",
+                "annualSalary": 60000,
+                "parent": "S1019"
+              },
+              {
+                "employeeId": "S1008",
+                "fullName": "Sarah Anderson",
+                "department": "Research and Development",
+                "designation": "R&D Engineer",
+                "hireDate": "4/18/2023",
+                "annualSalary": 58000,
+                "parent": "S1018"
+              },
+              {
+                "employeeId": "S1010",
+                "fullName": "Kimberly Garcia",
+                "department": "Quality Assurance",
+                "designation": "QA Analyst",
+                "hireDate": "2/14/2023",
+                "annualSalary": 56000,
+                "parent": "S1030"
+              },
+              {
+                "employeeId": "S1003",
+                "fullName": "Michael Johnson",
+                "department": "Finance",
+                "designation": "Financial Analyst",
+                "hireDate": "10/10/2023",
+                "annualSalary": 55000,
+                "parent": "S1023"
+              },
+              {
+                "employeeId": "S1024",
+                "fullName": "Jessica Martinez",
+                "department": "Sales",
+                "designation": "Senior Sales Representative",
+                "hireDate": "5/25/2023",
+                "annualSalary": 55000,
+                "parent": "S1014"
+              },
+              {
+                "employeeId": "S1026",
+                "fullName": "Sarah Smith",
+                "department": "Operations",
+                "designation": "Assistant Operations Manager",
+                "hireDate": "10/15/2023",
+                "annualSalary": 55000,
+                "parent": "S1006"
+              },
+              {
+                "employeeId": "S1009",
+                "fullName": "Christopher Thomas",
+                "department": "Production",
+                "designation": "Production Supervisor",
+                "hireDate": "7/22/2023",
+                "annualSalary": 52000,
+                "parent": "S1029"
+              },
+              {
+                "employeeId": "S1002",
+                "fullName": "Jane Doe",
+                "department": "Marketing",
+                "designation": "Marketing Specialist",
+                "hireDate": "8/20/2023",
+                "annualSalary": 50000,
+                "parent": "S1012"
+              },
+              {
+                "employeeId": "S1027",
+                "fullName": "Matthew Johnson",
+                "department": "Customer Service",
+                "designation": "Senior Customer Service Representative",
+                "hireDate": "3/28/2023",
+                "annualSalary": 50000,
+                "parent": "S1017"
+              },
+              {
+                "employeeId": "S1031",
+                "fullName": "Michael Smith",
+                "department": "Human Resources",
+                "designation": "HR Generalist",
+                "hireDate": "7/17/2023",
+                "annualSalary": 50000,
+                "parent": "S1001"
+              },
+              {
+                "employeeId": "S1034",
+                "fullName": "Sarah Garcia",
+                "department": "Sales",
+                "designation": "Sales Coordinator",
+                "hireDate": "6/17/2023",
+                "annualSalary": 50000,
+                "parent": "S1024"
+              },
+              {
+                "employeeId": "S1004",
+                "fullName": "Emily Brown",
+                "department": "Sales",
+                "designation": "Sales Representative",
+                "hireDate": "3/25/2023",
+                "annualSalary": 48000,
+                "parent": "S1034"
+              },
+              {
+                "employeeId": "S1011",
+                "fullName": "William Hernandez",
+                "department": "Human Resources",
+                "designation": "HR Coordinator",
+                "hireDate": "9/1/2023",
+                "annualSalary": 48000,
+                "parent": "S1031"
+              },
+              {
+                "employeeId": "S1016",
+                "fullName": "Amanda Martinez",
+                "department": "Operations",
+                "designation": "Operations Coordinator",
+                "hireDate": "10/29/2023",
+                "annualSalary": 48000,
+                "parent": "S1026"
+              },
+              {
+                "employeeId": "S1022",
+                "fullName": "Amy Hernandez",
+                "department": "Marketing",
+                "designation": "Marketing Coordinator",
+                "hireDate": "4/28/2023",
+                "annualSalary": 48000,
+                "parent": "S1002"
+              },
+              {
+                "employeeId": "S1028",
+                "fullName": "Emily Davis",
+                "department": "Research and Development",
+                "designation": "R&D Technician",
+                "hireDate": "6/1/2023",
+                "annualSalary": 48000,
+                "parent": "S1008"
+              },
+              {
+                "employeeId": "S1033",
+                "fullName": "David Brown",
+                "department": "Finance",
+                "designation": "Junior Financial Analyst",
+                "hireDate": "11/26/2023",
+                "annualSalary": 48000,
+                "parent": "S1003"
+              },
+              {
+                "employeeId": "S1035",
+                "fullName": "Matthew Hernandez",
+                "department": "Information Technology",
+                "designation": "Junior IT Specialist",
+                "hireDate": "9/20/2023",
+                "annualSalary": 48000,
+                "parent": "S1005"
+              },
+              {
+                "employeeId": "S1007",
+                "fullName": "Daniel Martinez",
+                "department": "Customer Service",
+                "designation": "Customer Service Representative",
+                "hireDate": "11/5/2023",
+                "annualSalary": 45000,
+                "parent": "S1027"
+              },
+              {
+                "employeeId": "S1021",
+                "fullName": "Michael Garcia",
+                "department": "Human Resources",
+                "designation": "HR Assistant",
+                "hireDate": "7/5/2023",
+                "annualSalary": 42000,
+                "parent": "S1011"
+              },
+              {
+                "employeeId": "S1032",
+                "fullName": "Jessica Johnson",
+                "department": "Marketing",
+                "designation": "Marketing Assistant",
+                "hireDate": "4/10/2023",
+                "annualSalary": 42000,
+                "parent": "S1022"
+              },
+              {
+                "employeeId": "S1036",
+                "fullName": "Emily Rodriguez",
+                "department": "Operations",
+                "designation": "Operations Assistant",
+                "hireDate": "12/3/2023",
+                "annualSalary": 42000,
+                "parent": "S1016"
+              },
+              {
+                "employeeId": "S1038",
+                "fullName": "Jennifer Smith",
+                "department": "Research and Development",
+                "designation": "R&D Assistant",
+                "hireDate": "7/30/2023",
+                "annualSalary": 42000,
+                "parent": "S1028"
+              },
+              {
+                "employeeId": "S1040",
+                "fullName": "Jessica Martinez",
+                "department": "Quality Assurance",
+                "designation": "QA Assistant",
+                "hireDate": "3/20/2023",
+                "annualSalary": 42000,
+                "parent": "S1010"
+              },
+              {
+                "employeeId": "S1037",
+                "fullName": "Daniel Davis",
+                "department": "Customer Service",
+                "designation": "Customer Service Associate",
+                "hireDate": "4/6/2023",
+                "annualSalary": 40000,
+                "parent": "S1007"
+              },
+              {
+                "employeeId": "S1039",
+                "fullName": "Michael Johnson",
+                "department": "Production",
+                "designation": "Production Assistant",
+                "hireDate": "10/25/2023",
+                "annualSalary": 40000,
+                "parent": "S1009"
+              }
+            ]
+            """;
 //public static String books="";
 }
