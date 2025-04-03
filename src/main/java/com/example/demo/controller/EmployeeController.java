@@ -33,17 +33,17 @@ public class EmployeeController {
 
         int offSet = (first - 1) * pageSize;
 
-        var lsOfBooks = getSubList(Employee.getAllEmp(), offSet, pageSize);
+        var employees = getSubList(Employee.getAllEmp(), offSet, pageSize);
 
-        List<Edge<Employee>> customerEdges = lsOfBooks.stream()
-                .map(customer -> new Edge<>(String.valueOf(customer.employeeId()), customer))
+        List<Edge<Employee>> edgeList = employees.stream()
+                .map(employee -> new Edge<>(String.valueOf(employee.employeeId()), employee))
                 .collect(Collectors.toList());
 
-        String startCursor = customerEdges.isEmpty() ? null : customerEdges.get(0).cursor();
-        String endCursor = customerEdges.isEmpty() ? null : customerEdges.get(customerEdges.size() - 1).cursor();
+        String startCursor = edgeList.isEmpty() ? null : edgeList.get(0).cursor();
+        String endCursor = edgeList.isEmpty() ? null : edgeList.get(edgeList.size() - 1).cursor();
 
-        PageInfo pageInfo = new PageInfo(startCursor, endCursor, totalRecord, offSet, customerEdges.size());
-        return new Connection<>(pageInfo, customerEdges);
+        PageInfo pageInfo = new PageInfo(startCursor, endCursor, totalRecord, offSet, edgeList.size());
+        return new Connection<>(pageInfo, edgeList);
     }
 
 }
