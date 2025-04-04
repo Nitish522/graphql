@@ -23,7 +23,12 @@ public class EmployeeController {
 
     @SchemaMapping
     public List<Employee> subordinates(Employee e) {
-        return Employee.getParent(e.employeeId());
+        return Employee.getChildren(e.employeeId());
+    }
+
+    @SchemaMapping
+    public Employee senior(Employee e) {
+        return Employee.getSenior(e.parent());
     }
 
     @QueryMapping

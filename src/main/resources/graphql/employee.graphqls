@@ -11,4 +11,5 @@ type Employee {
     hireDate: String
     annualSalary: Int
     subordinates: [Employee]
+    senior:Employee
 }

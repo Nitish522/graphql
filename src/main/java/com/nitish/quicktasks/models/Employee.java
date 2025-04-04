@@ -18,9 +18,13 @@ public record Employee(String employeeId, String fullName, String department, St
                 .orElse(null);
     }
 
-    public static List<Employee> getParent(String id) {
+    public static List<Employee> getChildren(String id) {
         return EMPLOYEES.stream().filter(employee -> employee.parent.equals(id))
                 .toList();
+    }
+    public static Employee getSenior(String id) {
+        return EMPLOYEES.stream().filter(employee -> employee.employeeId.equals(id)).findFirst()
+                .orElse(null);
     }
 
     public static List<Employee> getAllEmp() {
